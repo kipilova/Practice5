@@ -28,6 +28,7 @@ SELECT * FROM "table_Counter";
 ![image](https://github.com/user-attachments/assets/8f3606dc-6f7a-470a-acba-c910b4a3c932)
 
 4. Остановка и удаление контейнеров.
+
 docker-compose -p <app_name> down
 
 docker volume rm <app_name>_pgdata
